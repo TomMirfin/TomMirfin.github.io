@@ -19,7 +19,9 @@ function ProjectCard({ project }) {
         <div>{project.techStack} </div>
         <div className="button-container">
           <Button variant="contained" color="secondary">
-            Link To Live
+            <a href={`${project.liveLink}`} target="_blank">
+              Link To Live
+            </a>
           </Button>
           <Button variant="contained" color="secondary">
             <a href={`${project.gitHubLink}`} target="_blank">

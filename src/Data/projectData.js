@@ -6,5 +6,6 @@ export const projects = [
     techStack: "Node, Node-postgres, SQL, Jest, Suptest ",
     imgPath: "src/Components/images/backendScreenshot.png",
     gitHubLink: "https://github.com/TomMirfin/news-server",
+    liveLink: "https://news-server-qoyx.onrender.com/api/articles",
   },
 ];
