@@ -16,12 +16,12 @@ function Nav() {
       <ul className="nav-title">
         <li>
           <a href="https://github.com/TomMirfin" target="_blank">
-            <GitHubIcon />
+            <GitHubIcon style={{ fontSize: "xx-large" }} />
           </a>
         </li>
         <li>
           <a href="https://www.linkedin.com/in/tom-mirfin/" target="_blank">
-            <LinkedInIcon />
+            <LinkedInIcon style={{ fontSize: "xx-large" }} />
           </a>
         </li>
         <li>
