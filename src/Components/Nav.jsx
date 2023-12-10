@@ -15,10 +15,14 @@ function Nav() {
       <h1>Tom Mirfin</h1>
       <ul className="nav-title">
         <li>
-          <GitHubIcon />
+          <a href="https://github.com/TomMirfin" target="_blank">
+            <GitHubIcon />
+          </a>
         </li>
         <li>
-          <LinkedInIcon />
+          <a href="https://www.linkedin.com/in/tom-mirfin/" target="_blank">
+            <LinkedInIcon />
+          </a>
         </li>
         <li>
           <i className="fa-brands fa-hashnode"></i>

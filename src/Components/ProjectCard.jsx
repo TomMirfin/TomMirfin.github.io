@@ -1,7 +1,7 @@
 import GitHubIcon from "@mui/icons-material/GitHub";
 import Button from "@mui/material/Button";
 function ProjectCard({ project }) {
-  console.log(project.imgPath);
+  console.log(project.gitHubLink);
   return (
     <section className="project-card">
       <div
@@ -20,7 +20,9 @@ function ProjectCard({ project }) {
             Link To Live
           </Button>
           <Button variant="contained" color="secondary">
-            GitHub <GitHubIcon />
+            <a href={`${project.gitHubLink}`} target="_blank">
+              GitHub <GitHubIcon />
+            </a>
           </Button>
         </div>
       </div>
