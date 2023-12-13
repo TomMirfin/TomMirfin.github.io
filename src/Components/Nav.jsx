@@ -24,9 +24,7 @@ function Nav() {
             <LinkedInIcon style={{ fontSize: "xx-large" }} />
           </a>
         </li>
-        <li>
-          <i className="fa-brands fa-hashnode"></i>
-        </li>
+        <li></li>
       </ul>
       <ul className="nav-items">
         <li
