@@ -7,11 +7,9 @@ function ProjectCard({ project }) {
       <div
         className="indi-project-card"
         style={{
-          backgroundImage: `url(https://i.postimg.cc/5ymLH6bR/Screenshot-from-2023-12-10-12-34-56.png)`,
+          backgroundImage: `url(${project.imgPath})`,
         }}
-      >
-        ...
-      </div>
+      ></div>
       <div>
         <h4>{project.title}</h4>
         <p>{project.description}</p>
